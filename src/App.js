@@ -1,8 +1,14 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import logo from './logo.svg';
+import increment, { incrementAsync, decrement } from './actions';
+import Counter from './Counter';
 import './App.css';
 
 function App() {
+  const dispatch = useDispatch();
+  const counter = useSelector(state => state.count)
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +25,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <Counter
+        value={counter}
+        onIncrement={() => dispatch(increment())}
+        onDecrement={() => dispatch(decrement())}
+        onIncrementAsync={() => dispatch(incrementAsync())}
+      />
     </div>
   );
 }
