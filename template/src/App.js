@@ -36,7 +36,7 @@ function App() {
           {" "}
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://redux.js.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -45,7 +45,7 @@ function App() {
           {" "}
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://react-redux.js.org/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +56,7 @@ function App() {
           {" "}
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://redux-saga.js.org/"
             target="_blank"
             rel="noopener noreferrer"
           >

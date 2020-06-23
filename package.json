@@ -1,6 +1,6 @@
 {
   "name": "cra-template-react-redux-sagas",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "template.json",
   "author": "Alex Mochu",
   "dependencies": {
