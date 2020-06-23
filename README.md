@@ -1,4 +1,4 @@
-# cra-template-react-redux-sagas
+# cra-template-react-redux-saga
 
 Redux+Saga template for [Create React App](https://github.com/facebook/create-react-app)
 
