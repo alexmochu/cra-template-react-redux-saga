@@ -5,7 +5,7 @@ Redux+Saga template for [Create React App](https://github.com/facebook/create-re
 ## Usage
 
 ```sh
-npx create-react-app my-app --template react-redux-sagas
+npx create-react-app my-app --template react-redux-saga
 ```
 ```
 cd my-app
